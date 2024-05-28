@@ -1,40 +1,46 @@
+
 # Hostel Management Application
 
-Created using MERN Stack with Redux
+Developed with the MERN Stack and Redux
 
-## Installation
+## Installation Instructions
 
-```
+```sh
 npm install
 cd frontend && npm install
 ```
 
-### Configure .env file
+### Setup the .env File
 
-```
+```sh
 NODE_ENV = development/production
 PORT = 5000
-MONGO_URI= Mongo Uri
-JWT_SECRET= JWT Key
+MONGO_URI= Your MongoDB URI
+JWT_SECRET= Your JWT Secret Key
 ```
 
 ## Features
 
-- [x] Register/Login Screens
-- [x] Student Details
-- [x] Add Student
-- [x] Edit/Delete Student Details
-- [x] Update Student Where abouts
-- [x] Can take Attendance Daily
-- [x] Dispaly Attendance Details
-- [x] Download Csv file of attendance
-- [x] Delete Attendance of previous n days
-- [x] Control User List
-- [x] Edit User Admin Status
-- [x] Data Controlled by only Admins
+- [x] User Registration and Login
+- [x] Student Information Management
+- [x] Add New Students
+- [x] Edit or Remove Student Details
+- [x] Update Student Locations
+- [x] Daily Attendance Tracking
+- [x] Attendance Records Display
+- [x] Export Attendance Data as CSV
+- [x] Delete Attendance Records from Previous Days
+- [x] User List Management
+- [x] Modify User Admin Privileges
+- [x] Admin-Only Data Control
+```
 
-## Contributing
+### .env.example
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```env
+NODE_ENV=development
+PORT=5000
+MONGO_URI=Your MongoDB URI
+JWT_SECRET=Your JWT Secret Key
+```
 
-Please make sure to update tests as appropriate.
